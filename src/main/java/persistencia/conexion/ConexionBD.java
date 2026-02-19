@@ -28,7 +28,7 @@ public class ConexionBD implements IConexionBD {
      * Cadena de conexión a la base de datos. Incluye el protocolo JDBC, el
      * motor, la ubicación y el nombre de la base de datos.
      */
-    private final String CADENA_CONEXION = "jdbc:mysql://localhost:3306/soporte";
+    private final String CADENA_CONEXION = "jdbc:mysql://localhost:3306/Pizzeria";
 
     /**
      * Usuario utilizado para autenticarse en la base de datos.
