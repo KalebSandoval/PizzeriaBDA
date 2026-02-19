@@ -27,6 +27,12 @@ public class PedidoExpress extends Pedido {
     private String folio;
 
     /**
+     * Constructor por omisión.
+     */
+    public PedidoExpress() {
+    }
+
+    /**
      * Constructor completo con identificador.
      *
      * @param pin PIN del pedido

@@ -43,6 +43,12 @@ public class Pedido {
     private LocalDate fechaHoraEntrega;
 
     /**
+     * Constructor por omisión.
+     */
+    public Pedido() {
+    }
+
+    /**
      * Constructor completo que incluye identificador.
      *
      * @param idPedido identificador del pedido

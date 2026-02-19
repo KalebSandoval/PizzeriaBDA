@@ -35,6 +35,12 @@ public class PizzaIngrediente {
     private String unidad;
 
     /**
+     * Constructor por omisión.
+     */
+    public PizzaIngrediente() {
+    }
+
+    /**
      * Constructor que inicializa la relación Pizza–Ingrediente.
      *
      * @param pizza pizza asociada

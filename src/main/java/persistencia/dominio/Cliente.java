@@ -30,7 +30,7 @@ public class Cliente extends Usuario {
      * Id del cliente
      */
     private int idCliente;
-    
+
     /**
      * Nombres del cliente.
      */
@@ -61,6 +61,12 @@ public class Cliente extends Usuario {
      * Domicilio asociado al cliente. Representa una relación de composición.
      */
     private Domicilio domicilio;
+
+    /**
+     * Constructor por omisión.
+     */
+    public Cliente() {
+    }
 
     /**
      * Constructor completo que incluye el identificador del usuario.

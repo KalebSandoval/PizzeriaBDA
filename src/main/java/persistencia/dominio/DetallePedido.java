@@ -55,6 +55,12 @@ public class DetallePedido {
     private Pizza pizza;
 
     /**
+     * Constructor por omisión.
+     */
+    public DetallePedido() {
+    }
+
+    /**
      * Constructor completo que incluye identificador.
      *
      * @param idDetallePedido identificador del detalle
