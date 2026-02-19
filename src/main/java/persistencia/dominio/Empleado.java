@@ -25,6 +25,12 @@ public class Empleado extends Usuario {
     private String puestoEmpleado;
 
     /**
+     * Constructor por omisión.
+     */
+    public Empleado() {
+    }
+
+    /**
      * Constructor completo que incluye identificador.
      *
      * @param idUsuario identificador del usuario

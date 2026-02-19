@@ -32,6 +32,12 @@ public class PedidoProgramado extends Pedido {
     private Cupon cupon;
 
     /**
+     * Constructor por omisión.
+     */
+    public PedidoProgramado() {
+    }
+
+    /**
      * Constructor completo con identificador.
      *
      * @param numPedido número del pedido

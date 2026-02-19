@@ -41,6 +41,12 @@ public class Ingrediente {
     private List<PizzaIngrediente> pizzas;
 
     /**
+     * Constructor por omisión.
+     */
+    public Ingrediente() {
+    }
+
+    /**
      * Constructor completo.
      *
      * @param idIngrediente identificador

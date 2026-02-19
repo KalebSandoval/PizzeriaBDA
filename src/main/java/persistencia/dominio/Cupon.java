@@ -46,7 +46,13 @@ public class Cupon {
      * utilizado.
      */
     private LocalDate vigencia;
-
+    
+    /**
+     * Constructor por omisión.
+     */
+    public Cupon() {
+    }
+    
     /**
      * Constructor que crea un cupón con identificador.
      *

@@ -42,6 +42,12 @@ public class Telefono {
     private Usuario usuario;
 
     /**
+     * Constructor por omisión.
+     */
+    public Telefono() {
+    }
+
+    /**
      * Constructor completo del teléfono.
      *
      * @param usuario usuario al que se asocia el teléfono
