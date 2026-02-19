@@ -27,6 +27,11 @@ import java.time.Period;
 public class Cliente extends Usuario {
 
     /**
+     * Id del cliente
+     */
+    private int idCliente;
+    
+    /**
      * Nombres del cliente.
      */
     private String nombres;
@@ -107,6 +112,22 @@ public class Cliente extends Usuario {
         this.estado = estado;
         this.fechaNacimiento = fechaNacimiento;
         this.domicilio = domicilio;
+    }
+
+    /**
+     * Obtiene el id del cliente
+     * @return id del cliente
+     */
+    public int getIdCliente() {
+        return idCliente;
+    }
+
+    /**
+     * Modifica el id original del cliente
+     * @param idCliente nuevo idCliente
+     */
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
     }
 
     /**

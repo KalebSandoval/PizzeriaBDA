@@ -16,14 +16,14 @@ package persistencia.excepciones;
  * @author Alejandra Leal Armenta - 00000262719
  * @author Paulina Michel Guevara Cervantez - 00000262724
  */
-public class PersistenciaExecption extends Exception {
+public class PersistenciaException extends Exception {
 
     /**
      * Constructor que crea una excepción con un mensaje descriptivo.
      *
      * @param message mensaje que describe el error ocurrido
      */
-    public PersistenciaExecption(String message) {
+    public PersistenciaException(String message) {
         super(message);
     }
 
@@ -34,7 +34,7 @@ public class PersistenciaExecption extends Exception {
      * @param message mensaje que describe el error ocurrido
      * @param cause excepción original que provocó el error
      */
-    public PersistenciaExecption(String message, Throwable cause) {
+    public PersistenciaException(String message, Throwable cause) {
         super(message, cause);
     }
 }

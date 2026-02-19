@@ -30,7 +30,9 @@ public class Usuario {
     private String contraseniaUsuario;
 
     /**
-     * Nombre de usuario utilizado para iniciar sesión.
+     * Nombre de usuario utilizado para iniciar sesión. 
+     * 
+     * Username
      */
     private String nombreUsuario;
 
