@@ -21,7 +21,12 @@ package persistencia.dominio;
  * @author Paulina Michel Guevara Cervantez - 00000262724
  */
 public class Domicilio {
-
+    
+    /**
+     * Identificador del domicilio
+     */
+    private int idDomicilio;
+    
     /**
      * Número exterior o interior del domicilio.
      */
@@ -56,6 +61,27 @@ public class Domicilio {
         this.calle = calle;
         this.colonia = colonia;
     }
+
+    /**
+     * Obtiene el id del domicilio guardado en la base de datos.
+     * @return el id del domicilio
+     */
+    public int getIdDomicilio() {
+        return idDomicilio;
+    }
+
+    /**
+     * Establece el id del domicilio.
+     * 
+     * No se usara ya que es una para una PK, sin embargo puede funcionar
+     * para pruebas.
+     * @param idDomicilio 
+     */
+    public void setIdDomicilio(int idDomicilio) {
+        this.idDomicilio = idDomicilio;
+    }
+    
+    
 
     /**
      * Obtiene el número del domicilio.
